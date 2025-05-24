@@ -2,7 +2,7 @@ const axios = require('axios');
 
 class rapidodl {
   constructor() {
-    this.baseUrl = 'https://rapido.zetsu.xyz/api';
+    this.baseUrl = 'https://api.rapido.ooguy.com/api';
   }
   
   async ytdl(url) {
